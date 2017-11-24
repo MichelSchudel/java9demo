@@ -1,6 +1,7 @@
 package nl.craftsmen.java9demo.streamenhancements;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 public class StreamDemo {
 
@@ -14,5 +15,7 @@ public class StreamDemo {
         //java 9
         l.stream().takeWhile( i -> i > 30).forEach(System.out::println);
         l.stream().dropWhile( i -> i > 30).forEach(System.out::println);
+
+        Stream.iterate(0, c-> c < 10, c-> c+2).forEach(System.out::println);
     }
 }
