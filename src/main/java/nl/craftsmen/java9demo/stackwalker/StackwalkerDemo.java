@@ -1,4 +1,4 @@
-package nl.craftsmen.java9demo;
+package nl.craftsmen.java9demo.stackwalker;
 
 import java.util.List;
 import java.util.stream.Collectors;
