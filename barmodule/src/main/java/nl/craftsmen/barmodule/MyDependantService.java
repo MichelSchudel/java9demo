@@ -1,6 +1,6 @@
-package nl.craftsmen.module2;
+package nl.craftsmen.barmodule;
 
-import nl.craftsmen.module2.internal.MyInternalClass;
+import nl.craftsmen.barmodule.internal.MyInternalClass;
 
 public class MyDependantService {
 

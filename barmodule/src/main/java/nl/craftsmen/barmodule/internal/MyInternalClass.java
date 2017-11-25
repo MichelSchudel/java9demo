@@ -1,4 +1,4 @@
-package nl.craftsmen.module2.internal;
+package nl.craftsmen.barmodule.internal;
 
 public class MyInternalClass {
 

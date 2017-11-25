@@ -1,8 +1,8 @@
-package nl.craftsmen.module1;
+package nl.craftsmen.foomodule;
 
 import com.sun.net.httpserver.HttpServer;
-import nl.craftsmen.module2.MyDependantService;
-import nl.craftsmen.module2.internal.MyInternalClass;
+import nl.craftsmen.barmodule.MyDependantService;
+import nl.craftsmen.barmodule.internal.MyInternalClass;
 
 import java.io.IOException;
 
